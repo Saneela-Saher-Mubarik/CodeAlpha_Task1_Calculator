@@ -1,0 +1,76 @@
+body {  
+    background-image: url(https://media.istockphoto.com/id/1237986300/vector/financial-success-seamless-pattern-track-expenses-budget-emergency-fund-credit-card-home.jpg?s=612x612&w=0&k=20&c=iTn8IBv4ukSA4En-rYeo0UD6B5CvhF4VFbm7Yp3UL6g=);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}  
+
+h1 {  
+    text-align: center;    
+    color: #093969;  
+    font-size: 35px;
+    font-weight: 900;
+    font-family:'Gill Sans';
+}  
+
+.formstyle {  
+    width: 400px;  
+    border: 3px solid #00aaff;  
+    border-radius: 10px;  
+    padding: 30px;  
+    background-color: rgba(255, 255, 255, 0.95);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}  
+
+#calc {  
+    width: 95%;  
+    height: 60px;  
+    border: 2px solid #333;  
+    border-radius: 5px;  
+    margin-bottom: 3px;  
+    font-size: 28px;  
+    padding: 10px;  
+    text-align: right;  
+    background-color: #f0f0f0;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
+
+input[type="button"] {  
+    width: 80px;  
+    height: 80px;  
+    background-color:  #4dd2ff;  
+    color: white;  
+    border: 2px solid #333;  
+    border-radius: 10px;  
+    margin: 10px 5px; 
+    align-items: center; 
+    font-size: 24px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease, transform 0.1s ease;  
+}  
+
+input[type="button"]:hover {  
+    background-color: #132639;  
+    transform: scale(1.05);
+}  
+
+#clear {  
+    width: 100%;  
+    background-color:#132639;  
+    color: white;  
+    padding: 20px;  
+    font-size: 22px;  
+    border-radius: 5px;  
+    margin-top: 15px;  
+    cursor: pointer;  
+}  
+
+#clear:hover {  
+    background-color: darkred;  
+}  
